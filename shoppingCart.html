@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="Author" content="Dominic Burfeind">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap"        rel="stylesheet">
+
+  <title>TechHive - Unleashing the Power of Tech
+  </title>
+
+</head>
+
+
+
+<body id="shoppingCartPage">
+
+  <header>
+    
+    <nav>
+      <a href="index.html">
+          <img id="idLogo" height="70" width="70" src="logoWhite.png" alt="logo">
+      </a>
+
+        <ul>
+          <li><a href="category.html">Categorys</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="prices.html">Pricing</a></li>
+        </ul>
+      
+        <a href="shoppingCart.html">
+          <img id="idCart" height="40" width="40" src="shoppingCart.png" alt="Cart">
+        </a>
+        <span id="cartProductAmount">0</span>
+
+    </nav>
+
+  </header>
+
+
+    <h1>Shopping Cart</h1>
+
+    <main id="shopping_cart_page">
+  
+
+    <figure id="cart_product">
+      <img src="Cat_PC.png" alt="PC" height="200" width="200">
+      <span id="shoppingCartProductName">Name des produktes</span>
+      <br>
+        <h2 id="product_pricetag">0,-€</h2>
+        <br>
+        <p></p>
+        <img id="trashCan" src="trashcan.png" alt="trashcan" width="45" height="45">
+        <input type="number" min="1" max="99" value="1" name="Amount" id="product_amount">
+    </figure>
+
+    <figure id="cart_product_prices">
+      <figcaption>
+        <h3>Summary:</h3>
+        <br>
+        <p id="total_cart_price"> 0.00€</p>
+        <br>
+        <h3>Shippingcost:</h3>
+        <p id="shipping_cost">0.00€</p>
+        <br>
+        <hr>
+        <h3>Total:</h3>
+        <p id="cart_total"> 0.00€</p>
+      </figcaption>
+      <button id="checkout_button">Rent</button>
+    </figure>
+
+  </main>
+
+   
+
+
+
+  <footer>
+
+
+    <ul id="footerList2">
+
+      <li><a href="aboutus.html">About us</a></li>
+      <li><a href="category.html">Categorys</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="prices.html">Prices</a></li>
+
+    </ul>
+
+    <ul id="footerList1">
+
+      <li><a href="legal.html">Privacy Policy</a></li>
+      <li><a href="legal.html">Terms of Use</a></li>
+      <li><a href="legal.html">Sales and Refunds</a></li>
+      <li><a href="legal.html">Legal</a></li>
+
+    </ul>
+
+   
+
+    <p>TechHive&copy;2024</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
